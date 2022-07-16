@@ -116,6 +116,8 @@ public class petController : MonoBehaviour
 
     void InitData(int m_petId, int m_thisPetCount, int[] m_stats, int[] m_baseStats, string m_gameId, bool m_isEgg, int m_breedUsed, string m_parentId)
     {
+        
+
         // set as owned
         isOwned = true;
 
@@ -140,11 +142,6 @@ public class petController : MonoBehaviour
         // Display name
         petDisplayName = localizerManager.LocalizedText(petBalancing.locaId[petId]);
 
-        // currentL Level
-        currentLevel = saveManager.GetSavedInt(thisPetId+"_currentLevel");
-        maxLevel = petBalancing.maxLevel[petId];
-        CheckMaxLevel();
-
         // tier
         petTier = petBalancing.petTier[petId];
 
@@ -160,6 +157,16 @@ public class petController : MonoBehaviour
         totalStars = 0;
         for (int i = 0; i < m_stats.Length; i++)
             totalStars += petStats[i];
+
+
+        // currentL Level
+        currentLevel = saveManager.GetSavedInt(thisPetId + "_currentLevel");
+        maxLevel = petBalancing.maxLevel[petId];
+        int starstoMaxStars = 5 * m_stats.Length - totalStars - maxLevel;
+        if (starstoMaxStars > m_stats.Length * 5)
+            maxLevel = 5 * m_stats.Length - starstoMaxStars;
+        CheckMaxLevel();
+
 
         // baseStats
         baseStats = m_baseStats;

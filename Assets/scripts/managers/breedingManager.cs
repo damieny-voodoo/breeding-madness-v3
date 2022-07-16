@@ -175,6 +175,8 @@ public class breedingManager : MonoBehaviour
             int randomTotalStars = Random.Range(selectedStars, currentMaxStars + 2);
             if (randomTotalStars < statCount)
                 randomTotalStars = statCount;
+            else if (randomTotalStars > 20)
+                randomTotalStars = 20;
             totalStars[i] = randomTotalStars;
             int statUp = randomTotalStars - statCount;
             // reset stats
@@ -377,64 +379,35 @@ public class breedingManager : MonoBehaviour
         breedListPopup.GetComponent<GraphicRaycaster>().enabled = false;
         breedListPopup.GetComponent<Animation>().Play("breedListPopup_out");
 
-        /*
-        if(closeSource == "back")
+        int currentCoins = saveManager.GetSavedInt("currentCoins");
+        int price = mateSelected.GetComponent<breedingOptionController>().price;
+        if (price <= currentCoins)
         {
 
-            yield return new WaitForSeconds(breedPopup_OpenListDelay);
-            breedListPopup.GetComponent<GraphicRaycaster>().enabled = true;
-            breedListPopup.GetComponent<Animation>().Play("breedListPopup_in"); 
-            
-            foreach (breedingOptionController b in mateList)
-            {
-                float randomWait = Random.Range(petManager.breedCardMinDelay, petManager.breedCardMaxDelay);
-                b.ShowCard(randomWait);
-            }
+            // CLOSE POPUP
+            tapManager.ClosePopup();
+            tapManager.popupOpen = false;
+
+            // MOVE CAM
+            yield return new WaitForSeconds(breedPopup_CameraZoomDelay);
+            Camera.main.GetComponent<cameraAnimation>().ZoomOut();
+
+
+            // CREATE EGG
+            yield return new WaitForSeconds(breedPopup_EggPopDelay);
+            CreateBreededPet();
+
+            // SPEND COINS
+            GetComponent<coinManager>().SpendCoins(price);
+
+            // RESET VALUES ON PET
+            yield return new WaitForSeconds(breedPopup_petFoodDelayy);
+            petManager.selectedPet.GetComponent<petController>().SetHappy(false, 0);
+            petManager.selectedPet.GetComponent<petController>().UseBreed();
+
         }
-        */
-        //else if (closeSource == "breed")
-        //{
-            int currentCoins = saveManager.GetSavedInt("currentCoins");
-            int price = mateSelected.GetComponent<breedingOptionController>().price;
-            if (price <= currentCoins)
-            {
-                /*
-                // TUTO
-                if (saveManager.GetSavedInt("tutorialCompleted") == 0)
-                {
-                    if (tutorialManager.currentTuto == 8)
-                    {
-                        tutorialManager.HideTuto(8);
-                        tutorialManager.ShowTuto(9, true);
-                    }
-                }
-                */
-
-                // CLOSE POPUP
-                tapManager.ClosePopup();
-                tapManager.popupOpen = false;
-
-                // MOVE CAM
-                yield return new WaitForSeconds(breedPopup_CameraZoomDelay);
-                Camera.main.GetComponent<cameraAnimation>().ZoomOut();
-
-
-                // CREATE EGG
-                yield return new WaitForSeconds(breedPopup_EggPopDelay);
-                CreateBreededPet();
-
-                // SPEND COINS
-                GetComponent<coinManager>().SpendCoins(price);
-
-                // RESET VALUES ON PET
-                yield return new WaitForSeconds(breedPopup_petFoodDelayy);
-                petManager.selectedPet.GetComponent<petController>().SetHappy(false, 0);
-                petManager.selectedPet.GetComponent<petController>().UseBreed();
-
-            }
-            else
-                GetComponent<necManager>().ShowNec("coins");
-        //}
+        else
+            GetComponent<necManager>().ShowNec("coins");
 
 
 
@@ -581,7 +554,7 @@ public class breedingManager : MonoBehaviour
         petController selectedControler = petManager.selectedPet.GetComponent<petController>();
         int[]  eggStats = new int[selectedControler.petStats.Length];
 
-        // TAKE DEFUALT STATS IF IT'S A MUTATION
+        // TAKE DEFAULT STATS IF IT'S A MUTATION
         if (m_isNewBreed)
         {
             for (int i = 0; i < eggStats.Length; i++)
@@ -594,66 +567,79 @@ public class breedingManager : MonoBehaviour
             //////////////// get parent stats
             selectedControler = petManager.selectedPet.GetComponent<petController>();
             eggStats = new int[selectedControler.baseStats.Length];
+            int parentTotalStats = 0;
             for (int i = 0; i < eggStats.Length; i++)
+            {
                 eggStats[i] = selectedControler.baseStats[i];
-
-            //////////////// How many stars up
-            int starsUp = 0;
-            float[] thisStarUpChance;
-            float parentMultiplier;
-
-            // Get chances from data
-            int diff = mateSelected.totalStats - selectedControler.totalStars;
-            thisStarUpChance = new float[petStatsBalancing.starUpChance.GetLength(1)];
-            parentMultiplier = petStatsBalancing.parentCurrentStatsMofifier[selectedControler.totalStars];
-            for (int i = 0; i < thisStarUpChance.Length; i++)
-            {
-                thisStarUpChance[i] = petStatsBalancing.starUpChance[diff + 16, i] * parentMultiplier;
+                parentTotalStats += selectedControler.baseStats[i];
             }
-            // PICK RANDOM 
-            float randomChance = Random.Range(0f, 1f);
-            bool isPicked = false;
-            for (int i = 0; i < thisStarUpChance.Length; i++)
-            {
-                if (!isPicked)
-                {
-                    if (randomChance <= thisStarUpChance[i])
-                    {
-                        starsUp = i + 1;
-                        isPicked = true;
-                    }
-                }
-            }
+            Debug.Log(" NEW EGG parentTotalStats " + parentTotalStats);
 
-            // PICK RANDOM STATS
-            int[] statsChosen = new int[starsUp];
-            for (int i = 0; i < starsUp; i++)
+            if (parentTotalStats < 20)
             {
-                // total weight
-                int totalWeight = 0;
-                for (int j = 0; j < mateSelected.stats.Length; j++)
+                //////////////// How many stars up
+                int starsUp = 0;
+                float[] thisStarUpChance;
+                float parentMultiplier;
+
+                // Get chances from data
+                int diff = mateSelected.totalStats - selectedControler.totalStars;
+                thisStarUpChance = new float[petStatsBalancing.starUpChance.GetLength(1)];
+                parentMultiplier = petStatsBalancing.parentCurrentStatsMofifier[selectedControler.totalStars];
+                for (int i = 0; i < thisStarUpChance.Length; i++)
                 {
-                    if (eggStats[j] < 5)
-                    {
-                        totalWeight += mateSelected.stats[j];
-                        totalWeight += selectedControler.petStats[j];
-                    }
+                    thisStarUpChance[i] = petStatsBalancing.starUpChance[diff + 16, i] * parentMultiplier;
                 }
-                // random pick
-                bool statPicked = false;
-                int currentWeight = 0;
-                int randomPick = Random.Range(0, totalWeight);
-                for (int j = 0; j < mateSelected.stats.Length; j++)
+                // PICK RANDOM STAT
+                float randomChance = Random.Range(0f, 1f);
+                bool isPicked = false;
+                for (int i = 0; i < thisStarUpChance.Length; i++)
                 {
-                    if (!statPicked)
+                    if (!isPicked)
                     {
-                        currentWeight += mateSelected.stats[j];
-                        currentWeight += selectedControler.petStats[j];
-                        if (randomPick < currentWeight)
+                        if (randomChance <= thisStarUpChance[i])
                         {
-                            statPicked = true;
-                            statsChosen[i] = j;
-                            eggStats[j] = eggStats[j] + 1;
+                            starsUp = i + 1;
+                            isPicked = true;
+                        }
+                    }
+                }
+                if ((parentTotalStats + starsUp) > 20)
+                    starsUp = 20 - parentTotalStats;
+
+                Debug.Log(" NEW EGG starsUp " + starsUp);
+
+
+                // PICK RANDOM STATS
+                int[] statsChosen = new int[starsUp];
+                for (int i = 0; i < starsUp; i++)
+                {
+                    // total weight
+                    int totalWeight = 0;
+                    for (int j = 0; j < mateSelected.stats.Length; j++)
+                    {
+                        if (eggStats[j] < 5)
+                        {
+                            totalWeight += mateSelected.stats[j];
+                            totalWeight += selectedControler.petStats[j];
+                        }
+                    }
+                    // random pick
+                    bool statPicked = false;
+                    int currentWeight = 0;
+                    int randomPick = Random.Range(0, totalWeight);
+                    for (int j = 0; j < mateSelected.stats.Length; j++)
+                    {
+                        if (!statPicked)
+                        {
+                            currentWeight += mateSelected.stats[j];
+                            currentWeight += selectedControler.petStats[j];
+                            if (randomPick < currentWeight)
+                            {
+                                statPicked = true;
+                                statsChosen[i] = j;
+                                eggStats[j] = eggStats[j] + 1;
+                            }
                         }
                     }
                 }

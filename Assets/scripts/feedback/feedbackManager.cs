@@ -149,12 +149,14 @@ public class feedbackManager : MonoBehaviour
 
     public void StopPremergeFeedback()
     {
+        /*
         GameObject[] gos;
         gos = GameObject.FindGameObjectsWithTag("premergeFeedback");
         foreach (GameObject go in gos)
         {
             ObjectPool.SharedInstance.ReleaseObject(go);
         }
+        */
 
     }
 
