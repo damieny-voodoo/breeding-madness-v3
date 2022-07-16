@@ -1,0 +1,8 @@
+* [Unity Remote Config Runtime](index)
+    * [Upgrade Guide](upgrade-guide)
+* [Configuring your Project](ConfiguringYourProject)
+* [Environments](Environments)
+* [Code integration](CodeIntegration)
+* [REST API](RESTAPI)
+* [Web Dashboard](WebDashboard)
+* [Apple privacy survey](apple-privacy-survey)
