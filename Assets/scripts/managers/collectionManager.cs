@@ -70,6 +70,9 @@ public class collectionManager : MonoBehaviour
     ////////////////////////////////////////////////////////////////////// COLLECTION POPUP
     public void ShowCollection(int areaId)
     {
+        // shortly disable inertia
+        content.transform.parent.parent.GetComponent<ScrollRect>().inertia = false;
+
         UpdateData(areaId);
         ShowAnimation();
     }
@@ -87,11 +90,9 @@ public class collectionManager : MonoBehaviour
             ObjectPool.SharedInstance.ReleaseObject(g);
         items = new List<GameObject>();
 
-        //reset content position
-        content.transform.localPosition = new Vector3(Screen.width * .9f / 2f, 0f, 0f);
-
         // RECREATE THE LIST
         StartCoroutine(ShowCards());
+
 
     }
 
@@ -130,15 +131,20 @@ public class collectionManager : MonoBehaviour
             yield return new WaitForSeconds(itemsDelay);
         }
 
+        // re-enable inertia
+        content.transform.parent.parent.GetComponent<ScrollRect>().inertia = true;
+
         yield return null;
     }
 
     void ShowAnimation()
     {
+
         // OPEN POPUP
         GetComponent<tapManager>().OpenPopup();
         collectionPanel.GetComponent<GraphicRaycaster>().enabled = true;
         collectionPanel.GetComponent<Animation>().Play("collection_popup_open");
+
     }
 
     public void ClosePopup()
@@ -148,6 +154,7 @@ public class collectionManager : MonoBehaviour
         GetComponent<tapManager>().ClosePopup();
         collectionPanel.GetComponent<GraphicRaycaster>().enabled = false;
         collectionPanel.GetComponent<Animation>().Play("collection_popup_close");
+
     }
 
 
