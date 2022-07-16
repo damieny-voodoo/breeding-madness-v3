@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{096F68B1-7582-F147-5D4E-C1AB0DB79937}</ProjectGuid>
+    <ProjectGuid>{06AB3FE2-81DE-6E53-7A35-644C9162E2FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.RemoteConfig.Editor</AssemblyName>
@@ -56,16 +56,16 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigWindowController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigWebApiClient.cs" />
+    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\UIComponents\SettingsJsonModal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigDataStore.cs" />
+    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\UIComponents\SegmentationRulesTreeview.cs" />
     <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\UIComponents\MVRuleJsonModal.cs" />
     <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\UIComponents\SettingsTreeview.cs" />
-    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigUtilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigWebApiClient.cs" />
     <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\UIComponents\MVRuleSettingsTreeview.cs" />
-    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigWindowController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\UIComponents\SegmentationRulesTreeview.cs" />
-    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\UIComponents\SettingsJsonModal.cs" />
-    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\RemoteConfigDataStore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.remote-config@2.1.2\Editor\com.unity.remote-config.editor.asmdef" />
@@ -725,23 +725,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.RemoteConfig.Editor.Core.csproj">
-      <Project>{E90C8323-5CA9-CBF1-E117-355FB2658810}</Project>
+      <Project>{D60580A9-36C4-0F8E-C45B-25B43FBD3FAD}</Project>
       <Name>Unity.RemoteConfig.Editor.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B6D5AF39-130D-9C35-40E3-4AE0CED1BEA7}</Project>
+      <Project>{4D704655-3A7F-3AD3-D584-F112A0EDF8ED}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5DC2B6B3-388E-E3FA-E752-583762787942}</Project>
+      <Project>{E910D93B-B390-778B-EBA0-C749124D66DA}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E4D3B682-E114-D508-FB97-CD2A84877A08}</Project>
+      <Project>{80316CF7-8E1B-C49F-67A0-4F8E8C73CA1B}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{EFC1FA69-9A1E-F7D7-A556-AEF080D2D882}</Project>
+      <Project>{4CF7A1AF-6FB3-C417-27B2-2E5DE31FF08D}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

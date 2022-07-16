@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{68D124E8-EEB5-850C-7260-E6EB52E1515D}</ProjectGuid>
+    <ProjectGuid>{BC801FE0-650B-E11B-EEE7-167275E49D78}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,43 +56,43 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\RegistryMonitor.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\Styles.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\Extensions\CenterOnWindow.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Editor\NativeWrapperPreBuild.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_PostprocessBuild.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferenceEntryHolder.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferencesEditorWindow.cs" />
-    <Compile Include="Assets\ScreenshotUtility\Editor\ScreenshotUtility.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\Dialogs\TextValidator.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\Dialogs\TextFieldDialog.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\Internal\Editor\GameAnalyticsPreBuild.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\RegistryMonitor.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\BuildErrorManager\Editor\BuildErrorConfig.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_AutoRun.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Editor\NativeWrapperPostBuild.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferenceStorageAccessor.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferenceEntry.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Editor\AdjustSettings.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_SignUp.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\Editor\TinySauceSettingsEditor.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\BuildErrorManager\Editor\BuildErrorWindow.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_AssetPostprocessor.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Facebook\Internal\Editor\FacebookPreBuild.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Editor\NativeWrapperPreBuild.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\Editor\CustomReadOnlyDrawer.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\Dialogs\TextValidator.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_ContinuationManager.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferenceEntry.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Editor\AdjustSettings.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\Extensions\CenterOnWindow.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Android\Editor\AndroidPrebuild.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_Menu.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GameAnalyticsInspector.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\Editor\TinySauceSettingsEditor.cs" />
+    <Compile Include="Assets\ScreenshotUtility\Editor\ScreenshotUtility.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\Editor\PlayMakerPresenceCheck.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\Styles.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_EditorUtilities.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Android\Editor\AndroidPostbuild.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\BuildErrorManager\Editor\BuildErrorConfig.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_PostprocessBuild.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\PreferencesEditor\PreferencesEditorWindow.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\Editor\SendResourceEventActionEditor.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\Editor\SendProgressionEventActionEditor.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\Editor\CustomReadOnlyDrawer.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Internal\Editor\AdjustBuildPrebuild.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_SettingsInspector.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Android\Editor\AndroidPrebuild.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor\Dialogs\TextFieldDialog.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_SignUp.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Android\Editor\AndroidPostbuild.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_UpdateWindow.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_AutoRun.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\Internal\Editor\GameAnalyticsPreBuild.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Internal\IOS\Editor\IOSPrebuild.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_Menu.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Editor\NativeWrapperPostBuild.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\Editor\SendResourceEventActionEditor.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\Editor\PlayMakerPresenceCheck.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Editor\AdjustEditor.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GA_ContinuationManager.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\BuildErrorManager\Editor\BuildErrorWindow.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Editor\GameAnalyticsInspector.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\Editor\SendProgressionEventActionEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.169_manifest.txt" />
@@ -367,38 +367,23 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\_VoodooProjects\2021.3.4f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Facebook\3rdParty\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Facebook\3rdParty\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl">
       <HintPath>Assets\ExternalDependencyManager\Editor\1.2.169\Google.VersionHandlerImpl.dll</HintPath>
@@ -406,8 +391,20 @@
     <Reference Include="WinWsInterface">
       <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Adjust\Windows\Stubs\WinWsInterface.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.15.17\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
     <Reference Include="Facebook.Unity.Editor">
       <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Facebook\3rdParty\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
       <HintPath>Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
@@ -417,6 +414,9 @@
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Facebook\3rdParty\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Win81Interface">
       <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Adjust\Windows\Stubs\Win81Interface.dll</HintPath>
@@ -829,132 +829,132 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{A1E2DA47-24A8-0922-2CCC-A7147BD323D7}</Project>
+      <Project>{EFF24A03-C530-CE74-FB15-333485853702}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E4D3B682-E114-D508-FB97-CD2A84877A08}</Project>
+      <Project>{80316CF7-8E1B-C49F-67A0-4F8E8C73CA1B}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{EFC1FA69-9A1E-F7D7-A556-AEF080D2D882}</Project>
+      <Project>{4CF7A1AF-6FB3-C417-27B2-2E5DE31FF08D}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{1F329D63-23D8-08F7-46EF-E616CCAFF2A4}</Project>
+      <Project>{BE2E4F00-BC44-5588-BACD-F0863E72AC9E}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{4606CACA-DB0D-275F-45E1-414A8F5204C3}</Project>
+      <Project>{7E3E9200-DA0A-9126-5D84-5AA6ECC13C64}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{AEC4499C-DE7C-2EF0-047A-2DF44AF608BE}</Project>
+      <Project>{E6DAA98A-2754-3991-DD8A-501AA7289EBF}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{4F6B2C3F-E6A4-409D-5C1D-719472A3B34D}</Project>
+      <Project>{B4420B76-FF05-9BE2-5B66-89501CE96292}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{E174D5D2-DD6B-7478-495B-ACC87DDAE518}</Project>
+      <Project>{124472A1-1DBE-8AD5-1A2B-FCC6020FF952}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{D6E07CC7-E4A2-BC45-125D-88C13BA70B08}</Project>
+      <Project>{F9906946-B2C3-D83C-5B74-9E8F12C7CAE7}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{DEED757D-50F7-55CF-9FD8-D7DC314D7EB1}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{5326E137-C450-6800-DDA8-5EA8CA5B57D5}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{43E0133F-9D79-052B-2121-E15E569932FE}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{813F6C4A-0A3A-DD2A-E98F-C4D2A7787BBD}</Project>
-      <Name>Unity.VisualScripting.State.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{6350968B-31F0-3BC1-A8BF-369C8A4D3B9A}</Project>
-      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{AF70B30D-2557-0A4F-DD2F-B57E6453D336}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{2B4AD86D-FC75-9C95-EDE2-C06E53859929}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B6D5AF39-130D-9C35-40E3-4AE0CED1BEA7}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{AE979790-67E8-0652-5070-DBAB780AB4FC}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{5B656093-F572-8207-E8F5-1F7A202F0BE1}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5DC2B6B3-388E-E3FA-E752-583762787942}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{59AD356C-9595-3F0F-EF6A-ED6AC1821896}</Project>
-      <Name>Unity.Services.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{331EB8F2-F4C0-063A-CCA7-26D8B4F295B3}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{17084A17-E5A2-BA5C-98D8-75919AC70A90}</Project>
-      <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
-      <Project>{C93CC800-1C16-7BAC-D517-9630083A4F94}</Project>
-      <Name>Unity.Services.Core.Analytics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{18059874-B3E7-0BBC-D7EF-67431CBDA79B}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{B27AC41A-E35B-FDCC-9BFD-237D45D6AD7E}</Project>
-      <Name>Unity.Services.Core.Environments</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{EDAE2654-1658-8FFC-38DC-4CED08C909C1}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{B5050928-CC71-96FB-1731-4CD317BB2613}</Project>
-      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{CDD69771-8323-5B53-5974-3F1341B3B0B3}</Project>
-      <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RemoteConfig.csproj">
-      <Project>{B9C67BD2-56D5-6F79-C5C8-1533B1F87DD7}</Project>
+      <Project>{C20541DE-475B-2ED7-EBEB-88732D08A1FB}</Project>
       <Name>Unity.RemoteConfig</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RemoteConfig.Editor.csproj">
-      <Project>{096F68B1-7582-F147-5D4E-C1AB0DB79937}</Project>
+      <Project>{06AB3FE2-81DE-6E53-7A35-644C9162E2FA}</Project>
       <Name>Unity.RemoteConfig.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{ACE729F0-76F4-0E63-91DF-E7DBB6D95E8A}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{4A2D942F-3831-841A-94D4-27E4E028F792}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{3C89D469-5B22-B60F-5D5A-5F9360BF84F0}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
+      <Project>{83DCCD80-A769-02C4-C4CD-5CB07DBB73BB}</Project>
+      <Name>Unity.VisualScripting.State.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
+      <Project>{81BF23F4-00D7-9180-10EC-B9E4743D197C}</Project>
+      <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
+      <Project>{861A0F66-3CF4-F71E-0631-BC3FAADCC597}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{ED735857-0B0E-B2C3-CB67-9F5BC18E0D04}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{4D704655-3A7F-3AD3-D584-F112A0EDF8ED}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{BDD84ABB-43A9-B4FC-A2F7-71E3F347E905}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{A3D9937D-9917-5EE7-133F-7F81E4211A2A}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{E910D93B-B390-778B-EBA0-C749124D66DA}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{854668AA-1AAB-09E6-CB4D-5F9961C444CD}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{C67F320D-6960-0892-97D1-797838CE086D}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
+      <Project>{1E91FEB5-508F-1950-62B8-F93BA9A9BA0D}</Project>
+      <Name>Unity.EditorCoroutines.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{E6FCECBA-33B6-9973-8DD1-DB573D6F6BC4}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{09219F5C-D749-04BE-519C-DBBDF004411A}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{11649AD2-6B78-9822-9CB8-4C7AD5733834}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{F62620A2-E884-D622-E95A-DA52F0E8275B}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RemoteConfig.Editor.Core.csproj">
-      <Project>{E90C8323-5CA9-CBF1-E117-355FB2658810}</Project>
+      <Project>{D60580A9-36C4-0F8E-C45B-25B43FBD3FAD}</Project>
       <Name>Unity.RemoteConfig.Editor.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
+      <Project>{60A3DE76-6075-6FF2-6764-299A289090B3}</Project>
+      <Name>Unity.TestTools.CodeCoverage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.csproj">
+      <Project>{3B337094-911E-67F9-A469-00B3CE8BD28E}</Project>
+      <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

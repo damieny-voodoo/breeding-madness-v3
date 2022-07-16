@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4CF250E9-AB69-3C5B-D366-68BFA54824D7}</ProjectGuid>
+    <ProjectGuid>{1B0E9770-59F5-4549-6CDA-682E43D47B0A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,252 +58,252 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\misc\playfabLogin.cs" />
     <Compile Include="Assets\scripts\balancing\petStatsBalancing.cs" />
-    <Compile Include="Assets\scripts\misc\petBehavior.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Samples\SampleScene\PlayerPrefsController.cs" />
-    <Compile Include="Assets\scripts\controllers\boxController.cs" />
-    <Compile Include="Assets\scripts\Leaderboard\SimpleJson.cs" />
-    <Compile Include="Assets\scripts\balancing\RemoteConfigManager.cs" />
-    <Compile Include="Assets\scripts\misc\loadingBar_offset.cs" />
-    <Compile Include="Assets\scripts\managers\tipsManager.cs" />
-    <Compile Include="Assets\scripts\Leaderboard\MainThreadDispatcher.cs" />
-    <Compile Include="Assets\scripts\balancing\spawnerBalancing.cs" />
-    <Compile Include="Assets\scripts\balancing\albumBalancing.cs" />
-    <Compile Include="Assets\scripts\itemsData.cs" />
-    <Compile Include="Assets\scripts\balancing\orderBalancing.cs" />
-    <Compile Include="Assets\scripts\technical\autoSizeText.cs" />
-    <Compile Include="Assets\scripts\managers\tutorialManager.cs" />
-    <Compile Include="Assets\scripts\misc\fenceRotation.cs" />
-    <Compile Include="Assets\scripts\managers\tapManager.cs" />
-    <Compile Include="Assets\scripts\balancing\tileBalancing.cs" />
-    <Compile Include="Assets\scripts\controllers\waterBoxTapController.cs" />
-    <Compile Include="Assets\scripts\feedback\resourceUiFeedback.cs" />
-    <Compile Include="Assets\scripts\managers\appVersionManager.cs" />
-    <Compile Include="Assets\scripts\misc\rayRotate.cs" />
-    <Compile Include="Assets\scripts\managers\coinManager.cs" />
-    <Compile Include="Assets\scripts\controllers\gridController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustSessionSuccess.cs" />
     <Compile Include="Assets\scripts\controllers\orderController.cs" />
     <Compile Include="Assets\scripts\managers\unlockManager.cs" />
-    <Compile Include="Assets\scripts\feedback\linePosition.cs" />
-    <Compile Include="Assets\scripts\managers\energyManager.cs" />
-    <Compile Include="Assets\scripts\managers\cheatManager.cs" />
-    <Compile Include="Assets\scripts\managers\itemManager.cs" />
-    <Compile Include="Assets\scripts\managers\analyticsManager.cs" />
     <Compile Include="Assets\scripts\balancing\adBalancing.cs" />
-    <Compile Include="Assets\scripts\balancing\orderFamilyBalancing.cs" />
-    <Compile Include="Assets\scripts\misc\loading.cs" />
-    <Compile Include="Assets\scripts\managers\birdManager.cs" />
-    <Compile Include="Assets\scripts\misc\picturePosition.cs" />
-    <Compile Include="Assets\scripts\managers\startupManager.cs" />
-    <Compile Include="Assets\scripts\managers\powerupManager.cs" />
-    <Compile Include="Assets\scripts\controllers\traderOfferController.cs" />
-    <Compile Include="Assets\scripts\feedback\positionAnimation.cs" />
-    <Compile Include="Assets\scripts\managers\adManager.cs" />
-    <Compile Include="Assets\scripts\balancing\technicalData.cs" />
-    <Compile Include="Assets\scripts\controllers\gardenDecorationControler.cs" />
     <Compile Include="Assets\scripts\managers\timeNowManager.cs" />
-    <Compile Include="Assets\scripts\controllers\petController.cs" />
-    <Compile Include="Assets\scripts\controllers\infoPopupController.cs" />
-    <Compile Include="Assets\scripts\managers\necManager.cs" />
-    <Compile Include="Assets\scripts\managers\waterManager.cs" />
-    <Compile Include="Assets\scripts\balancing\gardenData.cs" />
     <Compile Include="Assets\scripts\managers\spawnerManager.cs" />
-    <Compile Include="Assets\scripts\misc\tapGarden.cs" />
-    <Compile Include="Assets\scripts\misc\dontDestroy.cs" />
-    <Compile Include="Assets\scripts\managers\petShopManager.cs" />
-    <Compile Include="Assets\scripts\misc\paddingDistance.cs" />
-    <Compile Include="Assets\scripts\controllers\trashController.cs" />
-    <Compile Include="Assets\scripts\feedback\feedbackManager.cs" />
     <Compile Include="Assets\scripts\managers\localizerManager.cs" />
-    <Compile Include="Assets\scripts\controllers\boatOrderController.cs" />
-    <Compile Include="Assets\scripts\balancing\birdBalancing.cs" />
-    <Compile Include="Assets\scripts\Leaderboard\PlayerInfo.cs" />
-    <Compile Include="Assets\OutlineEffect\OutlineEffect\LinkedSet.cs" />
-    <Compile Include="Assets\scripts\controllers\breedingOptionController.cs" />
-    <Compile Include="Assets\scripts\Leaderboard\SampleScript.cs" />
-    <Compile Include="Assets\scripts\controllers\petShopItemController.cs" />
-    <Compile Include="Assets\scripts\balancing\energyBalancing.cs" />
-    <Compile Include="Assets\CrystalFramework\Utility\Demos\SafeAreaDemo.cs" />
-    <Compile Include="Assets\scripts\balancing\unlockData.cs" />
-    <Compile Include="Assets\scripts\controllers\collectionItemController.cs" />
-    <Compile Include="Assets\scripts\balancing\petShopBalancing.cs" />
-    <Compile Include="Assets\scripts\balancing\islandBalancing.cs" />
-    <Compile Include="Assets\scripts\balancing\pictureBalancing.cs" />
-    <Compile Include="Assets\scripts\managers\breedingManager.cs" />
-    <Compile Include="Assets\scripts\controllers\itemAnimationController.cs" />
-    <Compile Include="Assets\scripts\misc\treeRandomAnim.cs" />
-    <Compile Include="Assets\scripts\balancing\powerupBalancing.cs" />
-    <Compile Include="Assets\scripts\managers\resourcesManager.cs" />
-    <Compile Include="Assets\scripts\technical\ObjectPool.cs" />
-    <Compile Include="Assets\CrystalFramework\Utility\SafeArea.cs" />
-    <Compile Include="Assets\OutlineEffect\OutlineEffect\Outline.cs" />
-    <Compile Include="Assets\scripts\controllers\spawnerController.cs" />
-    <Compile Include="Assets\scripts\misc\autoDestroy.cs" />
-    <Compile Include="Assets\scripts\misc\contextualTutorial_drag.cs" />
-    <Compile Include="Assets\scripts\technical\autoSizeGroup.cs" />
-    <Compile Include="Assets\scripts\managers\saveManager.cs" />
-    <Compile Include="Assets\scripts\technical\findTexts.cs" />
-    <Compile Include="Assets\scripts\Leaderboard\LeaderboardAPI.cs" />
-    <Compile Include="Assets\scripts\balancing\itemBalancing.cs" />
-    <Compile Include="Assets\scripts\managers\popupTextAndScaleManager.cs" />
-    <Compile Include="Assets\scripts\managers\xpManager.cs" />
-    <Compile Include="Assets\scripts\managers\settingsManager.cs" />
-    <Compile Include="Assets\scripts\misc\coin_positionAnim.cs" />
-    <Compile Include="Assets\scripts\controllers\itemController.cs" />
-    <Compile Include="Assets\scripts\balancing\iapBalancing.cs" />
-    <Compile Include="Assets\scripts\managers\notificationManager.cs" />
-    <Compile Include="Assets\scripts\misc\videoRecordingMode.cs" />
-    <Compile Include="Assets\scripts\misc\analyticsStarter.cs" />
-    <Compile Include="Assets\scripts\controllers\iapStoreController.cs" />
-    <Compile Include="Assets\Suriyun\Scripts\Camera Scripts\MouseOrbitImproved.cs" />
-    <Compile Include="Assets\scripts\misc\autoDisableAtStart.cs" />
-    <Compile Include="Assets\PlayerPrefsEditor\Editor Resources\ImageManager.cs" />
-    <Compile Include="Assets\scripts\managers\collectionManager.cs" />
-    <Compile Include="Assets\scripts\balancing\resourcesBalancing.cs" />
-    <Compile Include="Assets\scripts\managers\petManager.cs" />
-    <Compile Include="Assets\scripts\controllers\albumFamilyController.cs" />
-    <Compile Include="Assets\scripts\controllers\tileController.cs" />
-    <Compile Include="Assets\scripts\managers\iapStoreManager.cs" />
-    <Compile Include="Assets\scripts\misc\loadingAnimation.cs" />
-    <Compile Include="Assets\scripts\managers\iapManager.cs" />
-    <Compile Include="Assets\scripts\controllers\unlockController.cs" />
-    <Compile Include="Assets\scripts\balancing\localizationData.cs" />
-    <Compile Include="Assets\scripts\misc\cameraAnimation.cs" />
-    <Compile Include="Assets\scripts\misc\shadowDistance.cs" />
-    <Compile Include="Assets\scripts\misc\progressiveReveal.cs" />
-    <Compile Include="Assets\scripts\feedback\buttonTap.cs" />
-    <Compile Include="Assets\scripts\managers\gameManager.cs" />
-    <Compile Include="Assets\scripts\feedback\coinFeedback.cs" />
-    <Compile Include="Assets\scripts\feedback\followObject.cs" />
-    <Compile Include="Assets\scripts\managers\pictureManager.cs" />
-    <Compile Include="Assets\scripts\misc\tmp_positionCoinAnchor.cs" />
-    <Compile Include="Assets\scripts\managers\availableManager.cs" />
-    <Compile Include="Assets\scripts\misc\autoDisableObjectAtStart.cs" />
-    <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
-    <Compile Include="Assets\scripts\managers\albumManager.cs" />
-    <Compile Include="Assets\scripts\managers\islandManager.cs" />
-    <Compile Include="Assets\scripts\balancing\specialOrderBalancing.cs" />
-    <Compile Include="Assets\scripts\misc\orderItemTap.cs" />
-    <Compile Include="Assets\scripts\controllers\flagController.cs" />
-    <Compile Include="Assets\scripts\controllers\birdController.cs" />
-    <Compile Include="Assets\scripts\managers\localizationManager.cs" />
-    <Compile Include="Assets\scripts\managers\leaderboardManager.cs" />
-    <Compile Include="Assets\scripts\misc\petTap.cs" />
-    <Compile Include="Assets\scripts\managers\tileManager.cs" />
-    <Compile Include="Assets\scripts\managers\tradeOfferManager.cs" />
-    <Compile Include="Assets\scripts\balancing\petBalancing.cs" />
-    <Compile Include="Assets\scripts\controllers\albumPictureController.cs" />
-    <Compile Include="Assets\scripts\managers\newItemManager.cs" />
-    <Compile Include="Assets\scripts\managers\gardenManager.cs" />
-    <Compile Include="Assets\scripts\managers\orderManager.cs" />
-    <Compile Include="Assets\scripts\balancing\xpBalancing.cs" />
-    <Compile Include="Assets\scripts\feedback\dragSmoothFollow.cs" />
-    <Compile Include="Assets\OutlineEffect\OutlineEffect\OutlineEffect.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Error.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEventSuccess.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\Event.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\HyperBid\GAHyperBidIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_AndroidWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Helper\AnalyticsStorageHelper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Debug.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\Internal\GameAnalyticsWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\TopOn\GATopOnIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\AdMob\GAAdMobIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\Screens\TSDebugUIScreenEvents.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_SpecialEvents.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\Aequus\GAAequusIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\TinySauceBehaviour.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendAdEvent.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GAValidator.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustSessionSuccess.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendResourceEvent.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\3rd Party\SimpleJSON.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_iOSWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GetABTestingVariantId.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\ExampleGUI\ExampleGUI.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Models\AnalyticsConfig.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\Utils\IdfaAuthorizationUtils.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustLogLevel.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\Internal\VoodooAnalyticsParameters.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendDesignEvent.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustConfig.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Design.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsUtil.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\GameAnalyticsILRD.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Android\AdjustAndroid.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\VoodooAnalyticsManager.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Android\Utils\ManifestUtils.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsApi.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsParameters.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Progression.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\TSDebugUIBehaviour.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\TinySauceSettings.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Logging\VoodooLog.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\iOS\AdjustiOS.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SetCustomDimension.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\EventName.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsConstant.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Setup.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTClient.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Scripts\NativeWrapper.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\GameAnalytics.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Resource.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustSessionFailure.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\Internal\GameAnalyticsProvider.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\AnalyticsManager.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GAInitialize.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Models\IdfaAuthorizationConstants.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\EditorCustomAttributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\scripts\Leaderboard\SampleScript.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Enums.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_tvOSWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEnvironment.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Setup\Settings.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_Wrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\PrivacyHelpers\IdfaHelper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_TizenWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Fyber\GAFyberIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GetRemoteConfigsValueAsString.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_UWPWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\Tracker.cs" />
+    <Compile Include="Assets\scripts\balancing\islandBalancing.cs" />
+    <Compile Include="Assets\scripts\balancing\powerupBalancing.cs" />
+    <Compile Include="Assets\scripts\controllers\spawnerController.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_WebGLWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\IsRemoteConfigsReady.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEventFailure.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Windows\AdjustWindows.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Helper\AnalyticsUserIdHelper.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Utilities\GA_MiniJson.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEvent.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTObjCBridge.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\State\GAState.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\EnvironmentSettings\Helpers\EnvironmentSettingsLocalStorage.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\TinySauce.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\Screens\TSDebugUIScreenInfo.cs" />
+    <Compile Include="Assets\scripts\misc\videoRecordingMode.cs" />
+    <Compile Include="Assets\scripts\balancing\localizationData.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustUtils.cs" />
+    <Compile Include="Assets\scripts\feedback\buttonTap.cs" />
+    <Compile Include="Assets\scripts\feedback\coinFeedback.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\TSDebugUIManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\Internal\VoodooAnalyticsConstants.cs" />
+    <Compile Include="Assets\scripts\feedback\dragSmoothFollow.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_AndroidWrapper.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Debug.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\Internal\GameAnalyticsWrapper.cs" />
+    <Compile Include="Assets\scripts\balancing\orderBalancing.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\AdMob\GAAdMobIntegration.cs" />
+    <Compile Include="Assets\scripts\misc\rayRotate.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendAdEvent.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GetABTestingVariantId.cs" />
+    <Compile Include="Assets\scripts\misc\loading.cs" />
+    <Compile Include="Assets\scripts\misc\picturePosition.cs" />
+    <Compile Include="Assets\scripts\managers\adManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\VoodooAnalyticsManager.cs" />
+    <Compile Include="Assets\scripts\controllers\petController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Logging\VoodooLog.cs" />
+    <Compile Include="Assets\scripts\misc\dontDestroy.cs" />
+    <Compile Include="Assets\OutlineEffect\OutlineEffect\LinkedSet.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Models\IdfaAuthorizationConstants.cs" />
+    <Compile Include="Assets\scripts\technical\ObjectPool.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Helper\AnalyticsUserIdHelper.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\Adjust.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Helper\AnalyticsSessionHelper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\Screens\TSDebugUIScreen.cs" />
+    <Compile Include="Assets\scripts\managers\iapStoreManager.cs" />
+    <Compile Include="Assets\scripts\managers\iapManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
+    <Compile Include="Assets\scripts\feedback\followObject.cs" />
+    <Compile Include="Assets\scripts\misc\autoDisableObjectAtStart.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustAdRevenue.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_MonoWrapper.cs" />
+    <Compile Include="Assets\scripts\controllers\birdController.cs" />
+    <Compile Include="Assets\scripts\controllers\albumPictureController.cs" />
+    <Compile Include="Assets\scripts\itemsData.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Helper\AnalyticsStorageHelper.cs" />
+    <Compile Include="Assets\scripts\managers\tapManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\Screens\TSDebugUIScreenEvents.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\3rd Party\SimpleJSON.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_iOSWrapper.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\GameAnalyticsILRD.cs" />
+    <Compile Include="Assets\scripts\feedback\feedbackManager.cs" />
+    <Compile Include="Assets\scripts\balancing\birdBalancing.cs" />
+    <Compile Include="Assets\scripts\Leaderboard\PlayerInfo.cs" />
+    <Compile Include="Assets\scripts\controllers\petShopItemController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GetRemoteConfigsValueAsString.cs" />
+    <Compile Include="Assets\scripts\managers\settingsManager.cs" />
+    <Compile Include="Assets\scripts\managers\gameManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustPlayStoreSubscription.cs" />
+    <Compile Include="Assets\scripts\balancing\specialOrderBalancing.cs" />
+    <Compile Include="Assets\scripts\managers\tradeOfferManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\IConfig.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Samples\SampleScene\PlayerPrefsController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Error.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\HyperBid\GAHyperBidIntegration.cs" />
+    <Compile Include="Assets\scripts\balancing\albumBalancing.cs" />
+    <Compile Include="Assets\scripts\feedback\resourceUiFeedback.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_SpecialEvents.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\Internal\VoodooAnalyticsParameters.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustConfig.cs" />
+    <Compile Include="Assets\scripts\controllers\traderOfferController.cs" />
+    <Compile Include="Assets\scripts\feedback\positionAnimation.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsUtil.cs" />
+    <Compile Include="Assets\scripts\controllers\gardenDecorationControler.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsParameters.cs" />
+    <Compile Include="Assets\scripts\managers\necManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\TinySauceSettings.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\TSDebugUIBehaviour.cs" />
+    <Compile Include="Assets\scripts\misc\paddingDistance.cs" />
+    <Compile Include="Assets\scripts\controllers\trashController.cs" />
+    <Compile Include="Assets\scripts\controllers\boatOrderController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\AnalyticsManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GAInitialize.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEnvironment.cs" />
+    <Compile Include="Assets\scripts\managers\resourcesManager.cs" />
+    <Compile Include="Assets\CrystalFramework\Utility\SafeArea.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\PrivacyHelpers\IdfaHelper.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Fyber\GAFyberIntegration.cs" />
+    <Compile Include="Assets\scripts\managers\saveManager.cs" />
+    <Compile Include="Assets\scripts\balancing\itemBalancing.cs" />
+    <Compile Include="Assets\scripts\misc\coin_positionAnim.cs" />
+    <Compile Include="Assets\scripts\managers\notificationManager.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendBusinessEvent.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustAppStoreSubscription.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustThirdPartySharing.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Business.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustUtils.cs" />
+    <Compile Include="Assets\scripts\controllers\unlockController.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\IAnalyticsProvider.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendProgressionEvent.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\EnvironmentSettings\Models\EnvironmentSettings.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustAttribution.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\TSDebugUIManager.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustAdRevenue.cs" />
+    <Compile Include="Assets\scripts\managers\pictureManager.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\IronSource\GAIronSourceIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustPlayStoreSubscription.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\Max\GAMaxIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\IGameAnalyticsATTListener.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Mopub\GAMopubIntegration.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_MonoWrapper.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\Internal\VoodooAnalyticsConstants.cs" />
+    <Compile Include="Assets\scripts\misc\petTap.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\Internal\VoodooAnalyticsProvider.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Ads.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GetABTestingId.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\IConfig.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Models\IdfaAuthorizationStatus.cs" />
+    <Compile Include="Assets\scripts\managers\gardenManager.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsLog.cs" />
+    <Compile Include="Assets\scripts\misc\petBehavior.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEventSuccess.cs" />
+    <Compile Include="Assets\scripts\Leaderboard\MainThreadDispatcher.cs" />
+    <Compile Include="Assets\scripts\balancing\spawnerBalancing.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\TopOn\GATopOnIntegration.cs" />
+    <Compile Include="Assets\scripts\managers\tutorialManager.cs" />
+    <Compile Include="Assets\scripts\misc\fenceRotation.cs" />
+    <Compile Include="Assets\scripts\managers\energyManager.cs" />
+    <Compile Include="Assets\scripts\managers\itemManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\Utils\IdfaAuthorizationUtils.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustLogLevel.cs" />
+    <Compile Include="Assets\scripts\managers\birdManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Setup.cs" />
+    <Compile Include="Assets\scripts\balancing\energyBalancing.cs" />
+    <Compile Include="Assets\scripts\controllers\itemAnimationController.cs" />
+    <Compile Include="Assets\scripts\controllers\itemController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEvent.cs" />
+    <Compile Include="Assets\scripts\misc\analyticsStarter.cs" />
+    <Compile Include="Assets\Suriyun\Scripts\Camera Scripts\MouseOrbitImproved.cs" />
+    <Compile Include="Assets\scripts\misc\autoDisableAtStart.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\Screens\TSDebugUIScreenInfo.cs" />
+    <Compile Include="Assets\scripts\controllers\albumFamilyController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustAttribution.cs" />
+    <Compile Include="Assets\scripts\controllers\flagController.cs" />
+    <Compile Include="Assets\scripts\managers\tileManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Ads.cs" />
+    <Compile Include="Assets\scripts\balancing\RemoteConfigManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\Event.cs" />
+    <Compile Include="Assets\scripts\technical\autoSizeText.cs" />
+    <Compile Include="Assets\scripts\managers\coinManager.cs" />
+    <Compile Include="Assets\scripts\controllers\gridController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GAValidator.cs" />
+    <Compile Include="Assets\scripts\managers\analyticsManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Models\AnalyticsConfig.cs" />
+    <Compile Include="Assets\scripts\balancing\orderFamilyBalancing.cs" />
+    <Compile Include="Assets\scripts\managers\startupManager.cs" />
+    <Compile Include="Assets\scripts\managers\waterManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\iOS\AdjustiOS.cs" />
+    <Compile Include="Assets\scripts\misc\tapGarden.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Resource.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\Internal\GameAnalyticsProvider.cs" />
+    <Compile Include="Assets\scripts\controllers\breedingOptionController.cs" />
+    <Compile Include="Assets\CrystalFramework\Utility\Demos\SafeAreaDemo.cs" />
+    <Compile Include="Assets\scripts\controllers\collectionItemController.cs" />
+    <Compile Include="Assets\scripts\balancing\pictureBalancing.cs" />
+    <Compile Include="Assets\scripts\managers\breedingManager.cs" />
+    <Compile Include="Assets\scripts\misc\treeRandomAnim.cs" />
+    <Compile Include="Assets\scripts\misc\autoDestroy.cs" />
+    <Compile Include="Assets\scripts\technical\autoSizeGroup.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_UWPWrapper.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\IsRemoteConfigsReady.cs" />
+    <Compile Include="Assets\scripts\balancing\iapBalancing.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\EnvironmentSettings\Helpers\EnvironmentSettingsLocalStorage.cs" />
+    <Compile Include="Assets\PlayerPrefsEditor\Editor Resources\ImageManager.cs" />
+    <Compile Include="Assets\scripts\misc\progressiveReveal.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\EnvironmentSettings\Models\EnvironmentSettings.cs" />
+    <Compile Include="Assets\scripts\managers\availableManager.cs" />
+    <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\Max\GAMaxIntegration.cs" />
+    <Compile Include="Assets\scripts\managers\islandManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\IGameAnalyticsATTListener.cs" />
+    <Compile Include="Assets\OutlineEffect\OutlineEffect\OutlineEffect.cs" />
+    <Compile Include="Assets\scripts\managers\tipsManager.cs" />
+    <Compile Include="Assets\scripts\balancing\tileBalancing.cs" />
+    <Compile Include="Assets\scripts\controllers\waterBoxTapController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\Aequus\GAAequusIntegration.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\ExampleGUI\ExampleGUI.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendDesignEvent.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Design.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\EventName.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsConstant.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Scripts\NativeWrapper.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Setup\Settings.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\Tracker.cs" />
+    <Compile Include="Assets\scripts\Leaderboard\LeaderboardAPI.cs" />
+    <Compile Include="Assets\scripts\managers\xpManager.cs" />
+    <Compile Include="Assets\scripts\managers\collectionManager.cs" />
+    <Compile Include="Assets\scripts\managers\petManager.cs" />
+    <Compile Include="Assets\scripts\misc\loadingAnimation.cs" />
+    <Compile Include="Assets\scripts\controllers\tileController.cs" />
+    <Compile Include="Assets\scripts\misc\cameraAnimation.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Business.cs" />
+    <Compile Include="Assets\scripts\misc\tmp_positionCoinAnchor.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Mopub\GAMopubIntegration.cs" />
+    <Compile Include="Assets\scripts\managers\localizationManager.cs" />
+    <Compile Include="Assets\scripts\balancing\petBalancing.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\GetABTestingId.cs" />
+    <Compile Include="Assets\scripts\managers\newItemManager.cs" />
+    <Compile Include="Assets\scripts\controllers\boxController.cs" />
+    <Compile Include="Assets\scripts\Leaderboard\SimpleJson.cs" />
+    <Compile Include="Assets\scripts\misc\loadingBar_offset.cs" />
+    <Compile Include="Assets\scripts\managers\appVersionManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\TinySauceBehaviour.cs" />
+    <Compile Include="Assets\scripts\feedback\linePosition.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendResourceEvent.cs" />
+    <Compile Include="Assets\scripts\managers\cheatManager.cs" />
+    <Compile Include="Assets\scripts\managers\powerupManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Android\AdjustAndroid.cs" />
+    <Compile Include="Assets\scripts\balancing\technicalData.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Android\Utils\ManifestUtils.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsApi.cs" />
+    <Compile Include="Assets\scripts\controllers\infoPopupController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Events\GA_Progression.cs" />
+    <Compile Include="Assets\scripts\balancing\gardenData.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SetCustomDimension.cs" />
+    <Compile Include="Assets\scripts\managers\petShopManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTClient.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Settings\EditorCustomAttributes\ReadOnlyAttribute.cs" />
+    <Compile Include="Assets\scripts\balancing\unlockData.cs" />
+    <Compile Include="Assets\scripts\balancing\petShopBalancing.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_Wrapper.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_TizenWrapper.cs" />
+    <Compile Include="Assets\OutlineEffect\OutlineEffect\Outline.cs" />
+    <Compile Include="Assets\scripts\misc\contextualTutorial_drag.cs" />
+    <Compile Include="Assets\scripts\technical\findTexts.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Windows\AdjustWindows.cs" />
+    <Compile Include="Assets\scripts\managers\popupTextAndScaleManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ATT\GameAnalyticsATTObjCBridge.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\State\GAState.cs" />
+    <Compile Include="Assets\scripts\controllers\iapStoreController.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\TinySauce.cs" />
+    <Compile Include="Assets\scripts\balancing\resourcesBalancing.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\Scripts\DebugUI\Screens\TSDebugUIScreen.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Common\Internal\Helper\AnalyticsSessionHelper.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustThirdPartySharing.cs" />
+    <Compile Include="Assets\scripts\misc\shadowDistance.cs" />
+    <Compile Include="Assets\scripts\managers\albumManager.cs" />
+    <Compile Include="Assets\scripts\misc\orderItemTap.cs" />
+    <Compile Include="Assets\scripts\managers\leaderboardManager.cs" />
+    <Compile Include="Assets\scripts\balancing\xpBalancing.cs" />
+    <Compile Include="Assets\scripts\managers\orderManager.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Models\IdfaAuthorizationStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
@@ -565,14 +565,14 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:\_VoodooProjects\2021.3.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Facebook\3rdParty\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Facebook\3rdParty\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Android">
       <HintPath>Assets\VoodooPackages\TinySauce\Analytics\Facebook\3rdParty\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
@@ -954,49 +954,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.RemoteConfig.Player.csproj">
+      <Project>{2D64C947-5315-4117-DE10-4D63A896F868}</Project>
+      <Name>Unity.RemoteConfig.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{059FF3D7-6B2E-8BB0-E5AF-6E72B7E0984A}</Project>
+      <Project>{93E9FC51-7D9A-C8B9-2F44-957D5F5F4839}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{FA846282-56D7-A747-05E7-D5E45AAEE359}</Project>
+      <Project>{0BA16094-ECDD-4456-FC39-4194F3CF3195}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
-      <Project>{9152513F-9C7C-80A9-100D-E5CCECB34F74}</Project>
+      <Project>{A3EEC423-E9B6-145B-F050-DDD4C3467C4C}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{1C96CD2D-105D-5ECA-DF2F-8AD07A69B80F}</Project>
+      <Project>{0DF2CF51-5FA4-FDDB-2CB2-7C8E207FBAD4}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{819F2EC7-FA3A-3C1C-3284-7926AE5C24C2}</Project>
+      <Project>{076D7404-140E-92EF-8F63-24CF8AA7D056}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{B3B8E05F-F833-EE7E-82E8-B2647862E74C}</Project>
+      <Project>{63DBD19F-5BD9-9974-46D6-CAE06E7F15C0}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{0A923883-BA45-BA7A-C710-23E2CD794A18}</Project>
+      <Project>{4AD57D07-1F5E-583B-E06B-2ED1745402AC}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{DA93EC1B-98E5-DA62-82D5-A1714C644142}</Project>
+      <Project>{7D611B39-43DB-F45D-FF3A-F960CFB59A55}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
-      <Project>{CB5E8428-63F8-4F86-8BF2-5D98E9BD8EC2}</Project>
-      <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RemoteConfig.Player.csproj">
-      <Project>{C7FD49AA-F8E6-DD8D-6557-C1A1E73F4D86}</Project>
-      <Name>Unity.RemoteConfig.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.RemoteConfig.Editor.Core.Player.csproj">
-      <Project>{39A5238C-251C-4B06-BF8D-E5B6BF837651}</Project>
+      <Project>{E62B07D2-8E01-09D3-F036-D22009698C1D}</Project>
       <Name>Unity.RemoteConfig.Editor.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
+      <Project>{B598978C-6219-D9C2-F7ED-12239517E71A}</Project>
+      <Name>Unity.VisualScripting.State.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
