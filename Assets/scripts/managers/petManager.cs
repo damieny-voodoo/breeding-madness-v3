@@ -146,7 +146,6 @@ public class petManager : MonoBehaviour
         else if (totalOwned == 0)
         {
             SaveUnlockState(codename, 1);
-            collectionManager.UpdateStamp("newPet");
         }
 
         // SPAWN
@@ -380,6 +379,9 @@ public class petManager : MonoBehaviour
         controler.InitFood();
         controler.artObject.GetComponentInChildren<Animator>().SetInteger("animation", 3);
         controler.artObject.GetComponent<Animation>().Play("a_art_pop");
+
+        // UPDATE COLLECTION
+        collectionManager.UpdateStamp("newPet");
 
         // PUT PET ANIM TO IDLE
         yield return new WaitForSeconds(.1f);
