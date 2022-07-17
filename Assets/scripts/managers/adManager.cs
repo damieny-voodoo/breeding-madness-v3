@@ -221,8 +221,8 @@ public class adManager : MonoBehaviour//, IUnityAdsListener
                     Debug.Log("Ad " + placementId + " blocked by data");
                 */
             }
-            else
-                Debug.Log("ALL ADS BLOCKED BY CONFIG");
+            //else
+            //    Debug.Log("ALL ADS BLOCKED BY CONFIG");
         }
         //else
         //    Debug.Log("Interstitial ad blocked by level");
@@ -236,7 +236,6 @@ public class adManager : MonoBehaviour//, IUnityAdsListener
 
     void RestartIdleAd()
     {
-        Debug.Log("Start idle ad timer");
         idleAdStartTime = Time.time;
     }
 

@@ -195,7 +195,7 @@ public class petController : MonoBehaviour
 
         for (int i = 0; i < foodId.Length; i++)
         {
-            Debug.Log("Checking food for pet id"+ petId+" with " + m_totalStars + " stars, option "+i.ToString());
+            //Debug.Log("Checking food for pet id"+ petId+" with " + m_totalStars + " stars, option "+i.ToString());
             foodId[i] = petBalancing.itemId[petId, m_totalStars, i];
             foodFamily[i] = itemBalancing.familyNames[foodId[i]];
         }
@@ -207,7 +207,6 @@ public class petController : MonoBehaviour
     {
         // food orders created
         int foodOrderCreated = saveManager.GetSavedInt(thisPetId + "_foodOrderCreated");
-        Debug.Log(thisPetId + " foodOrderCreated " + foodOrderCreated);
 
         if (foodOrderCreated == 0)
             CreateFoodOrder();
@@ -376,8 +375,6 @@ public class petController : MonoBehaviour
 
     private void UpdateOrderUI()
     {
-        Debug.Log("UI/icons/items/" + currentFoodFamily + "_" + currentFoodTier.ToString());
-        Debug.Log("UI/icons/items/" + currentFoodFamily + "_" + currentFoodTier.ToString());
         imageLoaded = Resources.Load<Texture>("UI/icons/items/" + currentFoodFamily + "_" + currentFoodTier.ToString());
         itemImage.material.mainTexture = imageLoaded;
     }
@@ -584,7 +581,6 @@ public class petController : MonoBehaviour
         saveManager.SaveInt(thisPetId + "_isHappy", isHappy);
         saveManager.SaveInt(thisPetId + "_currentHappiness", currentHappiness);
         saveManager.SaveInt(thisPetId + "_currentHappyChance", currentHappyChance);
-        Debug.Log(" happy chance: " + happychance);
     }
 
     void SaveMaxStars(int stars)

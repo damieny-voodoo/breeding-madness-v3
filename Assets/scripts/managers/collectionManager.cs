@@ -48,7 +48,7 @@ public class collectionManager : MonoBehaviour
         currentUnlockablePet = 0;
         for (int i = 0; i < petBalancing.id.Length; i++)
         {
-            if (petBalancing.areaId[i] == currentArea)
+            if (petBalancing.areaId[i] == currentArea && petBalancing.isCollectionPet[i])
             {
                 maxProgressInArea++;
                 string thisPetId = petBalancing.codeName[i];
@@ -85,7 +85,7 @@ public class collectionManager : MonoBehaviour
         // REFRESH PROGRESS
         UpdateProgress("showCollection");
 
-        // REFRESH LISTS
+        // EMPTY LISTS
         foreach (GameObject g in items)
             ObjectPool.SharedInstance.ReleaseObject(g);
         items = new List<GameObject>();
@@ -106,7 +106,7 @@ public class collectionManager : MonoBehaviour
 
         for (int i = 0; i < petBalancing.areaId.Length; i++)
         {
-            if (currentArea == petBalancing.areaId[i])
+            if (currentArea == petBalancing.areaId[i] && petBalancing.isCollectionPet[i])
                 petIds.Add(petBalancing.id[i]);
         }
 
@@ -126,7 +126,7 @@ public class collectionManager : MonoBehaviour
             spawnedItem = ObjectPool.SharedInstance.GetPooledObject("collectionItem");
             items.Add(spawnedItem);
             spawnedItem.SetActive(true);
-            spawnedItem.transform.parent = content.transform;
+            spawnedItem.transform.SetParent(content.transform);
             items[i].GetComponent<collectionItemController>().UpdateItem(petIds[i], i);
             yield return new WaitForSeconds(itemsDelay);
         }
@@ -166,7 +166,7 @@ public class collectionManager : MonoBehaviour
         int tmp_currentProgressInArea = 0;
         for (int i = 0; i < petBalancing.id.Length; i++)
         {
-            if (petBalancing.areaId[i] == currentArea)
+            if (petBalancing.areaId[i] == currentArea && petBalancing.isCollectionPet[i])
             {
                 string thisPetId = petBalancing.codeName[i];
                 if (saveManager.GetSavedInt(thisPetId + "_unlockState") == 2)
@@ -207,7 +207,7 @@ public class collectionManager : MonoBehaviour
             currentUnlockablePet = 0;
             for (int i = 0; i < petBalancing.id.Length; i++)
             {
-                if (petBalancing.areaId[i] == currentArea)
+                if (petBalancing.areaId[i] == currentArea && petBalancing.isCollectionPet[i])
                 {
                     string thisPetId = petBalancing.codeName[i];
                     if (saveManager.GetSavedInt(thisPetId + "_unlockState") == 1)

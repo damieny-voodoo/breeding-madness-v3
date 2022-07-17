@@ -221,7 +221,6 @@ public class petManager : MonoBehaviour
         spawnedArt.SetActive(true);
 
         // APPLY STATS
-        Debug.Log("SPAWN PET m_petId:" + m_petId + ", thisPetCount:" + thisPetCount + ", stat0:" + stats[0] + ", stat1:" + stats[1] + ", stat2:" + stats[2] + ", stat3:" + stats[3]);
         spawnedPet.GetComponent<petController>().InitPet(m_petId, thisPetCount, stats, m_baseStats, codeName, isEgg, breedUsed, m_parentPetId);
 
         // ADD TO ARRAY

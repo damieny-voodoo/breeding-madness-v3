@@ -40,4 +40,6 @@ public class petBalancing : MonoBehaviour
     public int possibleFoodOptions;
     public int[] petTier;
 
+    public bool[] isCollectionPet;
+
 }

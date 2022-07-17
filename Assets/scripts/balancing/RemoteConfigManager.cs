@@ -2182,6 +2182,14 @@ public class RemoteConfigManager : MonoBehaviour
         for (int i = 0; i < petTier_split.Length; i++)
             petBalancing.petTier[i] = int.Parse(petTier_split[i].Trim());
         currentCheck++;
+
+        // isCollectionPet
+        string isCollectionPet = splitString[currentCheck].Trim();
+        string[] isCollectionPet_split = isCollectionPet.Split('|');
+        petBalancing.isCollectionPet = new bool[isCollectionPet_split.Length];
+        for (int i = 0; i < isCollectionPet_split.Length; i++)
+            petBalancing.isCollectionPet[i] = bool.Parse(isCollectionPet_split[i].Trim());
+        currentCheck++;
     }
 
 
