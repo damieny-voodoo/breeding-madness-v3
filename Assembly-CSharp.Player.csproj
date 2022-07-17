@@ -172,8 +172,8 @@
     <Compile Include="Assets\scripts\managers\gardenManager.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\VoodooAnalytics\3rdParty\Analytics\AnalyticsLog.cs" />
     <Compile Include="Assets\scripts\misc\petBehavior.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\Adjust\Unity\AdjustEventSuccess.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\SendErrorEvent.cs" />
     <Compile Include="Assets\scripts\Leaderboard\MainThreadDispatcher.cs" />
     <Compile Include="Assets\scripts\balancing\spawnerBalancing.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\ILRD\TopOn\GATopOnIntegration.cs" />
@@ -221,10 +221,10 @@
     <Compile Include="Assets\scripts\misc\treeRandomAnim.cs" />
     <Compile Include="Assets\scripts\misc\autoDestroy.cs" />
     <Compile Include="Assets\scripts\technical\autoSizeGroup.cs" />
-    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_UWPWrapper.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Playmaker\IsRemoteConfigsReady.cs" />
     <Compile Include="Assets\scripts\balancing\iapBalancing.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Internal\EnvironmentSettings\Helpers\EnvironmentSettingsLocalStorage.cs" />
+    <Compile Include="Assets\VoodooPackages\TinySauce\Analytics\GameAnalytics\3rdParty\GameAnalytics\Plugins\Scripts\Wrapper\GA_UWPWrapper.cs" />
     <Compile Include="Assets\PlayerPrefsEditor\Editor Resources\ImageManager.cs" />
     <Compile Include="Assets\scripts\misc\progressiveReveal.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Internal\EnvironmentSettings\Models\EnvironmentSettings.cs" />
@@ -302,8 +302,8 @@
     <Compile Include="Assets\scripts\misc\orderItemTap.cs" />
     <Compile Include="Assets\scripts\managers\leaderboardManager.cs" />
     <Compile Include="Assets\scripts\balancing\xpBalancing.cs" />
-    <Compile Include="Assets\scripts\managers\orderManager.cs" />
     <Compile Include="Assets\VoodooPackages\TinySauce\Internal\idfaAuthorization\NativeWrapper\Models\IdfaAuthorizationStatus.cs" />
+    <Compile Include="Assets\scripts\managers\orderManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
@@ -966,6 +966,10 @@
       <Project>{0BA16094-ECDD-4456-FC39-4194F3CF3195}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ProBuilder.Player.csproj">
+      <Project>{DDBCBCB8-8ACA-8B59-0FAF-72A8C585ED1D}</Project>
+      <Name>Unity.ProBuilder.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{A3EEC423-E9B6-145B-F050-DDD4C3467C4C}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
@@ -974,13 +978,21 @@
       <Project>{0DF2CF51-5FA4-FDDB-2CB2-7C8E207FBAD4}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{076D7404-140E-92EF-8F63-24CF8AA7D056}</Project>
-      <Name>Unity.Services.Core.Player</Name>
+    <ProjectReference Include="Unity.Polybrush.Player.csproj">
+      <Project>{AD62A2F9-C937-C690-C07F-70F931912D31}</Project>
+      <Name>Unity.Polybrush.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
       <Project>{63DBD19F-5BD9-9974-46D6-CAE06E7F15C0}</Project>
       <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TerrainTools.Player.csproj">
+      <Project>{EBFA5AC5-BDBD-C736-F9ED-1AB0A545D9FF}</Project>
+      <Name>Unity.TerrainTools.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Player.csproj">
+      <Project>{076D7404-140E-92EF-8F63-24CF8AA7D056}</Project>
+      <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
       <Project>{4AD57D07-1F5E-583B-E06B-2ED1745402AC}</Project>
@@ -990,9 +1002,17 @@
       <Project>{7D611B39-43DB-F45D-FF3A-F960CFB59A55}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Formats.Fbx.Runtime.Player.csproj">
+      <Project>{34D7F2F5-6D5E-D7E4-AE32-D237225318C9}</Project>
+      <Name>Unity.Formats.Fbx.Runtime.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.RemoteConfig.Editor.Core.Player.csproj">
       <Project>{E62B07D2-8E01-09D3-F036-D22009698C1D}</Project>
       <Name>Unity.RemoteConfig.Editor.Core.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Backtrace.Unity.Player.csproj">
+      <Project>{73E3A245-05E3-FC38-5BD1-F21468FD56A8}</Project>
+      <Name>Backtrace.Unity.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{B598978C-6219-D9C2-F7ED-12239517E71A}</Project>

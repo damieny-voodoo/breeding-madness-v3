@@ -56,47 +56,29 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\BacktraceClient.cs">
-      <Link>Runtime\BacktraceClient.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\ProcessAttributeProvider.cs">
-      <Link>Runtime\Model\Attributes\ProcessAttributeProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceCredentials.cs">
-      <Link>Runtime\Model\BacktraceCredentials.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\ReportFilterType.cs">
-      <Link>Runtime\Types\ReportFilterType.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceHttpClient.cs">
-      <Link>Runtime\Model\BacktraceHttpClient.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BacktraceBreadcrumbType.cs">
-      <Link>Runtime\Model\Breadcrumbs\BacktraceBreadcrumbType.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\RetryOrder.cs">
-      <Link>Runtime\Types\RetryOrder.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceData.cs">
-      <Link>Runtime\Model\BacktraceData.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\SummedEventsSubmissionQueue.cs">
       <Link>Runtime\Model\Metrics\SummedEventsSubmissionQueue.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Properties\AssemblyInfo.cs">
-      <Link>Runtime\Properties\AssemblyInfo.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\Android\NativeClient.cs">
-      <Link>Runtime\Native\Android\NativeClient.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceMetrics.cs">
       <Link>Runtime\Interfaces\IBacktraceMetrics.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\MachineStateAttributeProvider.cs">
-      <Link>Runtime\Model\Attributes\MachineStateAttributeProvider.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Database\BacktraceDatabaseAttachmentManager.cs">
+      <Link>Runtime\Model\Database\BacktraceDatabaseAttachmentManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\InMemory\InMemoryBreadcrumb.cs">
-      <Link>Runtime\Model\Breadcrumbs\InMemory\InMemoryBreadcrumb.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\IDynamicAttributeProvider.cs">
+      <Link>Runtime\Model\Attributes\IDynamicAttributeProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BreadcrumbLevel.cs">
+      <Link>Runtime\Model\Breadcrumbs\BreadcrumbLevel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceReport.cs">
+      <Link>Runtime\Model\BacktraceReport.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceStackFrame.cs">
+      <Link>Runtime\Model\BacktraceStackFrame.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceHttpClient.cs">
+      <Link>Runtime\Model\BacktraceHttpClient.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\Storage\BacktraceStorageLogManager.cs">
       <Link>Runtime\Model\Breadcrumbs\Storage\BacktraceStorageLogManager.cs</Link>
@@ -104,14 +86,44 @@
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Database\BacktraceDatabaseSettings.cs">
       <Link>Runtime\Model\Database\BacktraceDatabaseSettings.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Database\BacktraceDatabaseRecord.cs">
+      <Link>Runtime\Model\Database\BacktraceDatabaseRecord.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\BacktraceAttributes.cs">
+      <Link>Runtime\Model\JsonData\BacktraceAttributes.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceDatabase.cs">
+      <Link>Runtime\Interfaces\IBacktraceDatabase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\SceneAttributeProvider.cs">
+      <Link>Runtime\Model\Attributes\SceneAttributeProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MiniDumpExceptionInformation.cs">
+      <Link>Runtime\Common\MiniDumpExceptionInformation.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\NativeClientFactory.cs">
+      <Link>Runtime\Native\NativeClientFactory.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceUnityMessage.cs">
+      <Link>Runtime\Model\BacktraceUnityMessage.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\TypeHelper.cs">
+      <Link>Runtime\Common\TypeHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\IBacktraceLogManager.cs">
+      <Link>Runtime\Model\Breadcrumbs\IBacktraceLogManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\StreamExtensions.cs">
+      <Link>Runtime\Extensions\StreamExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\SourceCodeData.cs">
+      <Link>Runtime\Model\JsonData\SourceCodeData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\PiiAttributeProvider.cs">
+      <Link>Runtime\Model\Attributes\PiiAttributeProvider.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\GuidExtensions.cs">
       <Link>Runtime\Extensions\GuidExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceClientConfiguration.cs">
-      <Link>Runtime\Model\BacktraceClientConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\IScopeAttributeProvider.cs">
-      <Link>Runtime\Model\Attributes\IScopeAttributeProvider.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceUnhandledException.cs">
       <Link>Runtime\Model\BacktraceUnhandledException.cs</Link>
@@ -119,164 +131,44 @@
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\BacktraceApi.cs">
       <Link>Runtime\Services\BacktraceApi.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Database\BacktraceDatabaseRecord.cs">
-      <Link>Runtime\Model\Database\BacktraceDatabaseRecord.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceResult.cs">
-      <Link>Runtime\Model\BacktraceResult.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\Android\UnwindingMode.cs">
-      <Link>Runtime\Native\Android\UnwindingMode.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\MinidumpException.cs">
-      <Link>Runtime\Types\MinidumpException.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceAPI.cs">
-      <Link>Runtime\Interfaces\IBacktraceAPI.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\Annotations.cs">
-      <Link>Runtime\Model\JsonData\Annotations.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\DeduplicationStrategy.cs">
-      <Link>Runtime\Types\DeduplicationStrategy.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceConfiguration.cs">
       <Link>Runtime\Model\BacktraceConfiguration.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceSourceCode.cs">
-      <Link>Runtime\Model\BacktraceSourceCode.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\BacktraceResultStatus.cs">
-      <Link>Runtime\Types\BacktraceResultStatus.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\MinidumpOption.cs">
-      <Link>Runtime\Types\MinidumpOption.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MetricsHelper.cs">
-      <Link>Runtime\Common\MetricsHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Database\BacktraceDatabaseAttachmentManager.cs">
-      <Link>Runtime\Model\Database\BacktraceDatabaseAttachmentManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\ThreadInformation.cs">
-      <Link>Runtime\Model\JsonData\ThreadInformation.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\ReportLimitWatcher.cs">
-      <Link>Runtime\Services\ReportLimitWatcher.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\ExceptionExtensions.cs">
-      <Link>Runtime\Extensions\ExceptionExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\INativeClient.cs">
-      <Link>Runtime\Native\INativeClient.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\MetricsSubmissionJob.cs">
-      <Link>Runtime\Model\Metrics\MetricsSubmissionJob.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MinidumpHelper.cs">
-      <Link>Runtime\Common\MinidumpHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\BacktraceAttributes.cs">
-      <Link>Runtime\Model\JsonData\BacktraceAttributes.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\BacktraceDatabaseContext.cs">
-      <Link>Runtime\Services\BacktraceDatabaseContext.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceClient.cs">
-      <Link>Runtime\Interfaces\IBacktraceClient.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\StringExtensions.cs">
-      <Link>Runtime\Extensions\StringExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\MetricsSubmissionQueue.cs">
-      <Link>Runtime\Model\Metrics\MetricsSubmissionQueue.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\DeduplicationModel.cs">
-      <Link>Runtime\Model\DeduplicationModel.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\IDynamicAttributeProvider.cs">
-      <Link>Runtime\Model\Attributes\IDynamicAttributeProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceLogManager.cs">
-      <Link>Runtime\Model\BacktraceLogManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\UniqueEventsSubmissionQueue.cs">
-      <Link>Runtime\Model\Metrics\UniqueEventsSubmissionQueue.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceDatabase.cs">
-      <Link>Runtime\Interfaces\IBacktraceDatabase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Json\BacktraceJObject.cs">
-      <Link>Runtime\Json\BacktraceJObject.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceUnityMessage.cs">
-      <Link>Runtime\Model\BacktraceUnityMessage.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BacktraceBreadcrumbsEventHandler.cs">
-      <Link>Runtime\Model\Breadcrumbs\BacktraceBreadcrumbsEventHandler.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\BacktraceDatabase.cs">
       <Link>Runtime\BacktraceDatabase.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\Windows\NativeClient.cs">
-      <Link>Runtime\Native\Windows\NativeClient.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\SystemHelper.cs">
-      <Link>Runtime\Common\SystemHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BacktraceBreadcrumbs.cs">
-      <Link>Runtime\Model\Breadcrumbs\BacktraceBreadcrumbs.cs</Link>
-    </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\EnumExtensions.cs">
       <Link>Runtime\Extensions\EnumExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\TypeHelper.cs">
-      <Link>Runtime\Common\TypeHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\SceneAttributeProvider.cs">
-      <Link>Runtime\Model\Attributes\SceneAttributeProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\IBacktraceLogManager.cs">
-      <Link>Runtime\Model\Breadcrumbs\IBacktraceLogManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\EventAggregationBase.cs">
-      <Link>Runtime\Model\Metrics\EventAggregationBase.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BreadcrumbLevel.cs">
-      <Link>Runtime\Model\Breadcrumbs\BreadcrumbLevel.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceStackTrace.cs">
       <Link>Runtime\Model\BacktraceStackTrace.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\BacktraceMetrics.cs">
+      <Link>Runtime\Services\BacktraceMetrics.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\IBacktraceBreadcrumbs.cs">
+      <Link>Runtime\Model\Breadcrumbs\IBacktraceBreadcrumbs.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\iOS\NativeClient.cs">
+      <Link>Runtime\Native\iOS\NativeClient.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\Android\NativeClient.cs">
+      <Link>Runtime\Native\Android\NativeClient.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\IScopeAttributeProvider.cs">
+      <Link>Runtime\Model\Attributes\IScopeAttributeProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceAPI.cs">
+      <Link>Runtime\Interfaces\IBacktraceAPI.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\MetricsSubmissionJob.cs">
+      <Link>Runtime\Model\Metrics\MetricsSubmissionJob.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceClient.cs">
+      <Link>Runtime\Interfaces\IBacktraceClient.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\ThreadData.cs">
       <Link>Runtime\Model\JsonData\ThreadData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\StreamExtensions.cs">
-      <Link>Runtime\Extensions\StreamExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\Storage\BreadcrumbFile.cs">
-      <Link>Runtime\Model\Breadcrumbs\Storage\BreadcrumbFile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceDefaultClassifierTypes.cs">
-      <Link>Runtime\Model\BacktraceDefaultClassifierTypes.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceReport.cs">
-      <Link>Runtime\Model\BacktraceReport.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\RetryBehavior.cs">
-      <Link>Runtime\Types\RetryBehavior.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\InMemory\BacktraceInMemoryLogManager.cs">
-      <Link>Runtime\Model\Breadcrumbs\InMemory\BacktraceInMemoryLogManager.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\DateTimeHelper.cs">
-      <Link>Runtime\Common\DateTimeHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\SourceCodeData.cs">
-      <Link>Runtime\Model\JsonData\SourceCodeData.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceDatabaseFileContext.cs">
-      <Link>Runtime\Interfaces\IBacktraceDatabaseFileContext.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\MachineAttributeProvider.cs">
       <Link>Runtime\Model\Attributes\MachineAttributeProvider.cs</Link>
@@ -284,71 +176,179 @@
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\BacktraceStackFrameType.cs">
       <Link>Runtime\Types\BacktraceStackFrameType.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BacktraceBreadcrumbType.cs">
+      <Link>Runtime\Model\Breadcrumbs\BacktraceBreadcrumbType.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Properties\AssemblyInfo.cs">
+      <Link>Runtime\Properties\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceDatabaseFileContext.cs">
+      <Link>Runtime\Interfaces\IBacktraceDatabaseFileContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\ProcessAttributeProvider.cs">
+      <Link>Runtime\Model\Attributes\ProcessAttributeProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\MinidumpOption.cs">
+      <Link>Runtime\Types\MinidumpOption.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\Annotations.cs">
+      <Link>Runtime\Model\JsonData\Annotations.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\INativeClient.cs">
+      <Link>Runtime\Native\INativeClient.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Json\BacktraceJObject.cs">
+      <Link>Runtime\Json\BacktraceJObject.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BacktraceBreadcrumbsEventHandler.cs">
+      <Link>Runtime\Model\Breadcrumbs\BacktraceBreadcrumbsEventHandler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\Windows\NativeClient.cs">
+      <Link>Runtime\Native\Windows\NativeClient.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\Storage\BreadcrumbFile.cs">
+      <Link>Runtime\Model\Breadcrumbs\Storage\BreadcrumbFile.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\RetryBehavior.cs">
+      <Link>Runtime\Types\RetryBehavior.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\ThreadExtensions.cs">
       <Link>Runtime\Extensions\ThreadExtensions.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceSelfSSLCertificateHandler.cs">
-      <Link>Runtime\Model\BacktraceSelfSSLCertificateHandler.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceCredentials.cs">
+      <Link>Runtime\Model\BacktraceCredentials.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\BacktraceMetrics.cs">
-      <Link>Runtime\Services\BacktraceMetrics.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\ReportLimitWatcher.cs">
+      <Link>Runtime\Services\ReportLimitWatcher.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\PiiAttributeProvider.cs">
-      <Link>Runtime\Model\Attributes\PiiAttributeProvider.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\InMemory\BacktraceInMemoryLogManager.cs">
+      <Link>Runtime\Model\Breadcrumbs\InMemory\BacktraceInMemoryLogManager.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\UnityEngineLogLevel.cs">
-      <Link>Runtime\Model\Breadcrumbs\UnityEngineLogLevel.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MiniDumpExceptionInformation.cs">
-      <Link>Runtime\Common\MiniDumpExceptionInformation.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\AttributeProvider.cs">
-      <Link>Runtime\Model\JsonData\AttributeProvider.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\SummedEvent.cs">
-      <Link>Runtime\Model\Metrics\SummedEvent.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\Storage\IBreadcrumbFile.cs">
-      <Link>Runtime\Model\Breadcrumbs\Storage\IBreadcrumbFile.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\UnityWebRequestExtensions.cs">
-      <Link>Runtime\Extensions\UnityWebRequestExtensions.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\NativeClientFactory.cs">
-      <Link>Runtime\Native\NativeClientFactory.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\ClientPathHelper.cs">
-      <Link>Runtime\Common\ClientPathHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MathHelper.cs">
-      <Link>Runtime\Common\MathHelper.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\IBacktraceHttpClient.cs">
-      <Link>Runtime\Model\IBacktraceHttpClient.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceStackFrame.cs">
-      <Link>Runtime\Model\BacktraceStackFrame.cs</Link>
-    </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceDatabaseConfiguration.cs">
-      <Link>Runtime\Model\BacktraceDatabaseConfiguration.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\DateTimeHelper.cs">
+      <Link>Runtime\Common\DateTimeHelper.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Interfaces\IBacktraceDatabaseContext.cs">
       <Link>Runtime\Interfaces\IBacktraceDatabaseContext.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\IBacktraceBreadcrumbs.cs">
-      <Link>Runtime\Model\Breadcrumbs\IBacktraceBreadcrumbs.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\ExceptionExtensions.cs">
+      <Link>Runtime\Extensions\ExceptionExtensions.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\BacktraceDatabaseFileContext.cs">
-      <Link>Runtime\Services\BacktraceDatabaseFileContext.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\UniqueEventsSubmissionQueue.cs">
+      <Link>Runtime\Model\Metrics\UniqueEventsSubmissionQueue.cs</Link>
     </Compile>
-    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\iOS\NativeClient.cs">
-      <Link>Runtime\Native\iOS\NativeClient.cs</Link>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\AttributeProvider.cs">
+      <Link>Runtime\Model\JsonData\AttributeProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceDatabaseConfiguration.cs">
+      <Link>Runtime\Model\BacktraceDatabaseConfiguration.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\Android\UnwindingMode.cs">
+      <Link>Runtime\Native\Android\UnwindingMode.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\BacktraceResultStatus.cs">
+      <Link>Runtime\Types\BacktraceResultStatus.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\JsonData\ThreadInformation.cs">
+      <Link>Runtime\Model\JsonData\ThreadInformation.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\StringExtensions.cs">
+      <Link>Runtime\Extensions\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\BacktraceBreadcrumbs.cs">
+      <Link>Runtime\Model\Breadcrumbs\BacktraceBreadcrumbs.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\Storage\IBreadcrumbFile.cs">
+      <Link>Runtime\Model\Breadcrumbs\Storage\IBreadcrumbFile.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\IBacktraceHttpClient.cs">
+      <Link>Runtime\Model\IBacktraceHttpClient.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceClientConfiguration.cs">
+      <Link>Runtime\Model\BacktraceClientConfiguration.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\UniqueEvent.cs">
       <Link>Runtime\Model\Metrics\UniqueEvent.cs</Link>
     </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\RetryOrder.cs">
+      <Link>Runtime\Types\RetryOrder.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceData.cs">
+      <Link>Runtime\Model\BacktraceData.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\InMemory\InMemoryBreadcrumb.cs">
+      <Link>Runtime\Model\Breadcrumbs\InMemory\InMemoryBreadcrumb.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceSourceCode.cs">
+      <Link>Runtime\Model\BacktraceSourceCode.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\DeduplicationStrategy.cs">
+      <Link>Runtime\Types\DeduplicationStrategy.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MetricsHelper.cs">
+      <Link>Runtime\Common\MetricsHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\SystemHelper.cs">
+      <Link>Runtime\Common\SystemHelper.cs</Link>
+    </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Native\Base\NativeClientBase.cs">
       <Link>Runtime\Native\Base\NativeClientBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\BacktraceClient.cs">
+      <Link>Runtime\BacktraceClient.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MinidumpHelper.cs">
+      <Link>Runtime\Common\MinidumpHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\EventAggregationBase.cs">
+      <Link>Runtime\Model\Metrics\EventAggregationBase.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceSelfSSLCertificateHandler.cs">
+      <Link>Runtime\Model\BacktraceSelfSSLCertificateHandler.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\ClientPathHelper.cs">
+      <Link>Runtime\Common\ClientPathHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\BacktraceDatabaseFileContext.cs">
+      <Link>Runtime\Services\BacktraceDatabaseFileContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\MinidumpException.cs">
+      <Link>Runtime\Types\MinidumpException.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\MetricsSubmissionQueue.cs">
+      <Link>Runtime\Model\Metrics\MetricsSubmissionQueue.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\DeduplicationModel.cs">
+      <Link>Runtime\Model\DeduplicationModel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Metrics\SummedEvent.cs">
+      <Link>Runtime\Model\Metrics\SummedEvent.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Common\MathHelper.cs">
+      <Link>Runtime\Common\MathHelper.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Types\ReportFilterType.cs">
+      <Link>Runtime\Types\ReportFilterType.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\MachineStateAttributeProvider.cs">
+      <Link>Runtime\Model\Attributes\MachineStateAttributeProvider.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceResult.cs">
+      <Link>Runtime\Model\BacktraceResult.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Services\BacktraceDatabaseContext.cs">
+      <Link>Runtime\Services\BacktraceDatabaseContext.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceLogManager.cs">
+      <Link>Runtime\Model\BacktraceLogManager.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\BacktraceDefaultClassifierTypes.cs">
+      <Link>Runtime\Model\BacktraceDefaultClassifierTypes.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Breadcrumbs\UnityEngineLogLevel.cs">
+      <Link>Runtime\Model\Breadcrumbs\UnityEngineLogLevel.cs</Link>
+    </Compile>
+    <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Extensions\UnityWebRequestExtensions.cs">
+      <Link>Runtime\Extensions\UnityWebRequestExtensions.cs</Link>
     </Compile>
     <Compile Include="C:\Users\DamienYvray\OneDrive - Voodoo\Downloads\backtrace-unity-3.7.6\backtrace-unity-3.7.6\Runtime\Model\Attributes\RuntimeAttributeProvider.cs">
       <Link>Runtime\Model\Attributes\RuntimeAttributeProvider.cs</Link>
